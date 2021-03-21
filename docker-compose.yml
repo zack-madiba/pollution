@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: decouverte
+    volumes:
+      - "./.docker/postgres:/var/lib/postgresql/data"
+      - "./.docker/data:/data"
+    ports:
+      - 5432:5432
+  metabase:
+    image: metabase/metabase:latest
+    environment:
+      MB_DB_FILE: "/metabase-data/metabase.db"
+    volumes:
+      - ".docker/metabase:/metabase-data"
+    ports:
+      - 3000:3000
+<<<<<<< HEAD
+=======
+     
+>>>>>>> 2d21695aed7623269302623bf4ce365b5740387e

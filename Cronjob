@@ -1,0 +1,21 @@
+# Pour régler l'automatisation de la mise à jour de la base de donnée, Voici les taches à effectuer:
+
+- Avoir le fichier 'automat.sh' dans le meme dossier que le script python. 
+(Ce n'est pas obligatoire, mais c'est le plus simple pour éviter d'avoir à trop modifier le code déja écrit)
+
+- Il vous faudras seulement modifier la ligne de code qui suit en fonction de votre environnement:
+cd /chemin/absolu/vers/le/fichier/python
+
+- Dernière étape, dans votre terminal, executez la commande:
+$ crontab -e
+
+- Puis, copier cette ligne de code:
+00 * * * * /chemin/absolu/vers/le/fichier/automat.sh
+
+- Modifier simplement : '/chemin/absolu/vers/le/fichier', par votre propre chemin.
+- Fermez, enregistrer, c'est terminée.
+
+Pour information, le crontab déclanche une execution automatique sur X temps, selon le réglage.
+Cette execution appel et execute à son tour le script automat.sh, qui lui meme execute le script python.
+
+Bonne analyse.

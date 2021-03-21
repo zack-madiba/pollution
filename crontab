@@ -1,0 +1,4 @@
+commande crontab pour actualiser les données chaque 1h
+
+* 1 * * * /usr/bin/python3 /home/francois/Bureau/gitlablocal/projet_2-groupe_3/main.py
+
