@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ```
 François Okolo
 ```
@@ -129,7 +128,7 @@ _cf gitlab pour le script python et le fichier jupyter notebook_
 * *[Analyse de données massives](https://fxjollois.github.io/cours-2019-2020/m1--add-massives/)*
 * *[Cours python](https://python.doctor/page-apprendre-variables-debutant-python)*
 * *[Folium](https://python-visualization.github.io/folium/)*
-=======
+
 Lien vers les slide google :
 https://docs.google.com/presentation/d/1LCJvNfju6AiGc1ZRivWzhXYDsSk8KPPCa5DE_VK_zgc/edit#slide=id.p
 >>>>>>> 2d21695aed7623269302623bf4ce365b5740387e
